@@ -1,6 +1,6 @@
 ---
 lastmod: 2023-04-30 11:34:56.503314
-title: Complete Markdown Guide
+title: Complete Markdown
 description: Course 3
 weight: 13
 emogi: 🤭
