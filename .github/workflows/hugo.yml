@@ -30,7 +30,7 @@ jobs:
           restore-keys: ${{ runner.os }}-hugo-
           # Set the Node.js version to use
           env:
-            NODE_VERSION: '16.x'
+            NODE_VERSION: '16.16.0'
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
