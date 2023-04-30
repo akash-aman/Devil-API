@@ -1,66 +1,13 @@
 ---
 title: Chapter 10
 description: Chapter 10
-weight: 98
-emogi: 🤑
+weight: 8
+emogi: 🤕
 type: chapters
 chapter: 10
+section_start: Section 3
+section_emogi: 🤡
 ---
-
-
---This text is deleted--
-
-
-Term
-: Definition
-
-
-<time datetime="2013-04-06T12:32+00:00">2 weeks ago</time>
-
-
-<sub>This text is small</sub>
-
-
-$$
-\begin{align}
-\end{align}
-$$
-
-
-==This text is highlighted==
-
-
-*This text is italic*
-
-_This text is italic_
-
-
-[Google](https://www.google.com)
-
-[facebook](https://www.facebook.com "This is a title")
-
-
-:smile:
-
-
-H~2~O
-
-
-1. This is a numbered list
-2. This is a numbered list
-3. This is a numbered list
-4. This is a numbered list
-- This is a list
-- This is a nested list
-	- This is a nested list
-		- This is a nested list
-			- This is a nested list
-				- This is a nested list
-
-
-<details>
-<summary>Click to expand!</summary>
-</details>
 
 
 | Tables | Are | Cool |
@@ -70,20 +17,27 @@ H~2~O
 | zebra stripes | are neat | $1 |
 
 
-This is a citation.[^1]
-[^1]: This is a citation.
+<sub>This text is small</sub>
 
 
-<details>
-<summary>Click to expand!</summary>
-</details>
+++This text is inserted++
 
 
 - [x] This is a complete item
 - [ ] This is an incomplete item
 
 
-**This text is bold**
+--This text is deleted--
+
+
+Term
+: Definition
+
+
+$$
+\begin{align}
+\end{align}
+$$
 
 
 > This is a blockquote
@@ -99,17 +53,8 @@ This is a citation.[^1]
 >>>> This is a nested blockquote
 
 
-2^2^2
-
-
-Here is a footnote reference,[^1]
-[^1]: And here is the footnote.
-
-
----
-
-
-*[HTML]: Hyper Text Markup Language
+This is a citation.[^1]
+[^1]: This is a citation.
 
 
 ![This is an image](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
@@ -117,6 +62,48 @@ Here is a footnote reference,[^1]
 ![This is an image](https://images.pexels.com/photos/14980905/pexels-photo-14980905.jpeg "This is a title")
 
 ![This is an image](https://images.pexels.com/photos/1612351/pexels-photo-1612351.jpeg)
+
+
+==This text is highlighted==
+
+
+~~This text is strikethrough~~
+
+
+Here is a footnote reference,[^1]
+[^1]: And here is the footnote.
+
+
+H~2~O
+
+
+**This text is bold**
+
+
+1. This is a numbered list
+2. This is a numbered list
+3. This is a numbered list
+4. This is a numbered list
+- This is a list
+- This is a nested list
+	- This is a nested list
+		- This is a nested list
+			- This is a nested list
+				- This is a nested list
+
+
+*This text is italic*
+
+_This text is italic_
+
+
+---
+
+
+2^2^2
+
+
+*[HTML]: Hyper Text Markup Language
 
 
 # Heading 1 
@@ -127,10 +114,25 @@ Here is a footnote reference,[^1]
 ###### Heading 6 
 
 
-~~This text is strikethrough~~
-
-
-++This text is inserted++
+<details>
+<summary>Click to expand!</summary>
+</details>
 
 
 `This text is code`
+
+
+:smile:
+
+
+[Google](https://www.google.com)
+
+[facebook](https://www.facebook.com "This is a title")
+
+
+<details>
+<summary>Click to expand!</summary>
+</details>
+
+
+<time datetime="2013-04-06T12:32+00:00">2 weeks ago</time>

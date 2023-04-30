@@ -1,21 +1,35 @@
 ---
 title: Chapter 15
 description: Chapter 15
-weight: 57
-emogi: 🤡
+weight: 63
+emogi: 🤧
 type: chapters
 chapter: 15
 ---
 
 
-**This text is bold**
+| Tables | Are | Cool |
+| --- | --- | --- |
+| col 3 is | right-aligned | $1600 |
+| col 2 is | centered | $12 |
+| zebra stripes | are neat | $1 |
 
 
 *[HTML]: Hyper Text Markup Language
 
 
-- [x] This is a complete item
-- [ ] This is an incomplete item
+[Google](https://www.google.com)
+
+[facebook](https://www.facebook.com "This is a title")
+
+
+<time datetime="2013-04-06T12:32+00:00">2 weeks ago</time>
+
+
+:smile:
+
+
+---
 
 
 1. This is a numbered list
@@ -28,50 +42,6 @@ chapter: 15
 		- This is a nested list
 			- This is a nested list
 				- This is a nested list
-
-
-<details>
-<summary>Click to expand!</summary>
-</details>
-
-
-# Heading 1 
-## Heading 2 
-### Heading 3 
-#### Heading 4 
-##### Heading 5 
-###### Heading 6 
-
-
-$$
-\begin{align}
-\end{align}
-$$
-
-
-[Google](https://www.google.com)
-
-[facebook](https://www.facebook.com "This is a title")
-
-
-`This text is code`
-
-
----
-
-
-<sub>This text is small</sub>
-
-
-This is a citation.[^1]
-[^1]: This is a citation.
-
-
-:smile:
-
-
-Term
-: Definition
 
 
 > This is a blockquote
@@ -87,38 +57,12 @@ Term
 >>>> This is a nested blockquote
 
 
-==This text is highlighted==
-
-
-H~2~O
-
-
-<time datetime="2013-04-06T12:32+00:00">2 weeks ago</time>
-
-
-Here is a footnote reference,[^1]
-[^1]: And here is the footnote.
-
-
-2^2^2
-
-
-++This text is inserted++
+`This text is code`
 
 
 <details>
 <summary>Click to expand!</summary>
 </details>
-
-
-| Tables | Are | Cool |
-| --- | --- | --- |
-| col 3 is | right-aligned | $1600 |
-| col 2 is | centered | $12 |
-| zebra stripes | are neat | $1 |
-
-
---This text is deleted--
 
 
 ![This is an image](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
@@ -128,9 +72,65 @@ Here is a footnote reference,[^1]
 ![This is an image](https://images.pexels.com/photos/1612351/pexels-photo-1612351.jpeg)
 
 
+Here is a footnote reference,[^1]
+[^1]: And here is the footnote.
+
+
+--This text is deleted--
+
+
+++This text is inserted++
+
+
+<sub>This text is small</sub>
+
+
+H~2~O
+
+
+<details>
+<summary>Click to expand!</summary>
+</details>
+
+
+**This text is bold**
+
+
 ~~This text is strikethrough~~
+
+
+# Heading 1 
+## Heading 2 
+### Heading 3 
+#### Heading 4 
+##### Heading 5 
+###### Heading 6 
+
+
+==This text is highlighted==
+
+
+$$
+\begin{align}
+\end{align}
+$$
 
 
 *This text is italic*
 
 _This text is italic_
+
+
+- [x] This is a complete item
+- [ ] This is an incomplete item
+
+
+This is a citation.[^1]
+[^1]: This is a citation.
+
+
+2^2^2
+
+
+Term
+: Definition

@@ -1,10 +1,30 @@
 ---
 title: Chapter 7
 description: Chapter 7
-weight: 21
-emogi: 🤠
+weight: 20
+emogi: 🤮
 type: chapters
 chapter: 7
+---
+
+
+--This text is deleted--
+
+
+This is a citation.[^1]
+[^1]: This is a citation.
+
+
+Here is a footnote reference,[^1]
+[^1]: And here is the footnote.
+
+
+:smile:
+
+
+++This text is inserted++
+
+
 ---
 
 
@@ -16,7 +36,75 @@ chapter: 7
 </details>
 
 
-<time datetime="2013-04-06T12:32+00:00">2 weeks ago</time>
+Term
+: Definition
+
+
+# Heading 1 
+## Heading 2 
+### Heading 3 
+#### Heading 4 
+##### Heading 5 
+###### Heading 6 
+
+
+*This text is italic*
+
+_This text is italic_
+
+
+- [x] This is a complete item
+- [ ] This is an incomplete item
+
+
+**This text is bold**
+
+
+| Tables | Are | Cool |
+| --- | --- | --- |
+| col 3 is | right-aligned | $1600 |
+| col 2 is | centered | $12 |
+| zebra stripes | are neat | $1 |
+
+
+$$
+\begin{align}
+\end{align}
+$$
+
+
+~~This text is strikethrough~~
+
+
+<details>
+<summary>Click to expand!</summary>
+</details>
+
+
+[Google](https://www.google.com)
+
+[facebook](https://www.facebook.com "This is a title")
+
+
+1. This is a numbered list
+2. This is a numbered list
+3. This is a numbered list
+4. This is a numbered list
+- This is a list
+- This is a nested list
+	- This is a nested list
+		- This is a nested list
+			- This is a nested list
+				- This is a nested list
+
+
+`This text is code`
+
+
+*[HTML]: Hyper Text Markup Language
+
+
+H~2~O
 
 
 > This is a blockquote
@@ -32,53 +120,7 @@ chapter: 7
 >>>> This is a nested blockquote
 
 
-1. This is a numbered list
-2. This is a numbered list
-3. This is a numbered list
-4. This is a numbered list
-- This is a list
-- This is a nested list
-	- This is a nested list
-		- This is a nested list
-			- This is a nested list
-				- This is a nested list
-
-
-[Google](https://www.google.com)
-
-[facebook](https://www.facebook.com "This is a title")
-
-
-:smile:
-
-
-This is a citation.[^1]
-[^1]: This is a citation.
-
-
-Here is a footnote reference,[^1]
-[^1]: And here is the footnote.
-
-
-++This text is inserted++
-
-
-H~2~O
-
-
-~~This text is strikethrough~~
-
-
-| Tables | Are | Cool |
-| --- | --- | --- |
-| col 3 is | right-aligned | $1600 |
-| col 2 is | centered | $12 |
-| zebra stripes | are neat | $1 |
-
-
-*This text is italic*
-
-_This text is italic_
+2^2^2
 
 
 ![This is an image](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
@@ -88,49 +130,7 @@ _This text is italic_
 ![This is an image](https://images.pexels.com/photos/1612351/pexels-photo-1612351.jpeg)
 
 
-2^2^2
-
-
----
-
-
-`This text is code`
-
-
-# Heading 1 
-## Heading 2 
-### Heading 3 
-#### Heading 4 
-##### Heading 5 
-###### Heading 6 
-
-
-*[HTML]: Hyper Text Markup Language
-
-
-Term
-: Definition
-
-
-**This text is bold**
-
-
-- [x] This is a complete item
-- [ ] This is an incomplete item
-
-
-<details>
-<summary>Click to expand!</summary>
-</details>
-
-
 ==This text is highlighted==
 
 
-$$
-\begin{align}
-\end{align}
-$$
-
-
---This text is deleted--
+<time datetime="2013-04-06T12:32+00:00">2 weeks ago</time>

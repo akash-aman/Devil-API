@@ -1,19 +1,24 @@
 ---
-lastmod: 2023-04-28 23:01:54.459997
+lastmod: 2023-04-30 11:34:56.471495
 title: Course 1
 description: Course 1
-weight: 33
-emogi: 🤮
+weight: 17
+emogi: 🤡
 type: course
 author : Akash Aman
 ---
 
 
+<time datetime="2013-04-06T12:32+00:00">2 weeks ago</time>
+
+
 **This text is bold**
 
 
-- [x] This is a complete item
-- [ ] This is an incomplete item
+---
+
+
+++This text is inserted++
 
 
 # Heading 1 
@@ -22,6 +27,43 @@ author : Akash Aman
 #### Heading 4 
 ##### Heading 5 
 ###### Heading 6 
+
+
+$$
+\begin{align}
+\end{align}
+$$
+
+
+--This text is deleted--
+
+
+~~This text is strikethrough~~
+
+
+2^2^2
+
+
+<sub>This text is small</sub>
+
+
+Here is a footnote reference,[^1]
+[^1]: And here is the footnote.
+
+
+<details>
+<summary>Click to expand!</summary>
+</details>
+
+
+Term
+: Definition
+
+
+H~2~O
+
+
+==This text is highlighted==
 
 
 > This is a blockquote
@@ -37,59 +79,15 @@ author : Akash Aman
 >>>> This is a nested blockquote
 
 
-~~This text is strikethrough~~
+![This is an image](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
+
+![This is an image](https://images.pexels.com/photos/14980905/pexels-photo-14980905.jpeg "This is a title")
+
+![This is an image](https://images.pexels.com/photos/1612351/pexels-photo-1612351.jpeg)
 
 
-| Tables | Are | Cool |
-| --- | --- | --- |
-| col 3 is | right-aligned | $1600 |
-| col 2 is | centered | $12 |
-| zebra stripes | are neat | $1 |
-
-
-:smile:
-
-
---This text is deleted--
-
-
-<details>
-<summary>Click to expand!</summary>
-</details>
-
-
-Here is a footnote reference,[^1]
-[^1]: And here is the footnote.
-
-
-Term
-: Definition
-
-
----
-
-
-<time datetime="2013-04-06T12:32+00:00">2 weeks ago</time>
-
-
-$$
-\begin{align}
-\end{align}
-$$
-
-
-++This text is inserted++
-
-
-==This text is highlighted==
-
-
-<details>
-<summary>Click to expand!</summary>
-</details>
-
-
-`This text is code`
+- [x] This is a complete item
+- [ ] This is an incomplete item
 
 
 1. This is a numbered list
@@ -104,15 +102,24 @@ $$
 				- This is a nested list
 
 
-<sub>This text is small</sub>
+[Google](https://www.google.com)
+
+[facebook](https://www.facebook.com "This is a title")
 
 
 *[HTML]: Hyper Text Markup Language
 
 
-[Google](https://www.google.com)
+<details>
+<summary>Click to expand!</summary>
+</details>
 
-[facebook](https://www.facebook.com "This is a title")
+
+| Tables | Are | Cool |
+| --- | --- | --- |
+| col 3 is | right-aligned | $1600 |
+| col 2 is | centered | $12 |
+| zebra stripes | are neat | $1 |
 
 
 *This text is italic*
@@ -124,14 +131,7 @@ This is a citation.[^1]
 [^1]: This is a citation.
 
 
-H~2~O
+:smile:
 
 
-![This is an image](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
-
-![This is an image](https://images.pexels.com/photos/14980905/pexels-photo-14980905.jpeg "This is a title")
-
-![This is an image](https://images.pexels.com/photos/1612351/pexels-photo-1612351.jpeg)
-
-
-2^2^2
+`This text is code`

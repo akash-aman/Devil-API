@@ -1,26 +1,66 @@
 ---
 title: Chapter 9
 description: Chapter 9
-weight: 41
-emogi: 🤫
+weight: 35
+emogi: 🤥
 type: chapters
 chapter: 9
 ---
 
 
----
-
-
-![This is an image](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
-
-![This is an image](https://images.pexels.com/photos/14980905/pexels-photo-14980905.jpeg "This is a title")
-
-![This is an image](https://images.pexels.com/photos/1612351/pexels-photo-1612351.jpeg)
+++This text is inserted++
 
 
 <details>
 <summary>Click to expand!</summary>
 </details>
+
+
+Here is a footnote reference,[^1]
+[^1]: And here is the footnote.
+
+
+H~2~O
+
+
+==This text is highlighted==
+
+
+:smile:
+
+
+$$
+\begin{align}
+\end{align}
+$$
+
+
+<time datetime="2013-04-06T12:32+00:00">2 weeks ago</time>
+
+
+`This text is code`
+
+
+Term
+: Definition
+
+
+# Heading 1 
+## Heading 2 
+### Heading 3 
+#### Heading 4 
+##### Heading 5 
+###### Heading 6 
+
+
+--This text is deleted--
+
+
+| Tables | Are | Cool |
+| --- | --- | --- |
+| col 3 is | right-aligned | $1600 |
+| col 2 is | centered | $12 |
+| zebra stripes | are neat | $1 |
 
 
 > This is a blockquote
@@ -36,37 +76,19 @@ chapter: 9
 >>>> This is a nested blockquote
 
 
+![This is an image](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
+
+![This is an image](https://images.pexels.com/photos/14980905/pexels-photo-14980905.jpeg "This is a title")
+
+![This is an image](https://images.pexels.com/photos/1612351/pexels-photo-1612351.jpeg)
+
+
 *[HTML]: Hyper Text Markup Language
 
 
---This text is deleted--
+*This text is italic*
 
-
-<sub>This text is small</sub>
-
-
-2^2^2
-
-
-[Google](https://www.google.com)
-
-[facebook](https://www.facebook.com "This is a title")
-
-
-| Tables | Are | Cool |
-| --- | --- | --- |
-| col 3 is | right-aligned | $1600 |
-| col 2 is | centered | $12 |
-| zebra stripes | are neat | $1 |
-
-
-`This text is code`
-
-
-:smile:
-
-
-**This text is bold**
+_This text is italic_
 
 
 <details>
@@ -74,27 +96,26 @@ chapter: 9
 </details>
 
 
-~~This text is strikethrough~~
+**This text is bold**
 
 
-$$
-\begin{align}
-\end{align}
-$$
+<sub>This text is small</sub>
 
 
-Here is a footnote reference,[^1]
-[^1]: And here is the footnote.
+This is a citation.[^1]
+[^1]: This is a citation.
 
 
 - [x] This is a complete item
 - [ ] This is an incomplete item
 
 
-==This text is highlighted==
+[Google](https://www.google.com)
+
+[facebook](https://www.facebook.com "This is a title")
 
 
-++This text is inserted++
+~~This text is strikethrough~~
 
 
 1. This is a numbered list
@@ -109,28 +130,7 @@ Here is a footnote reference,[^1]
 				- This is a nested list
 
 
-# Heading 1 
-## Heading 2 
-### Heading 3 
-#### Heading 4 
-##### Heading 5 
-###### Heading 6 
+2^2^2
 
 
-H~2~O
-
-
-<time datetime="2013-04-06T12:32+00:00">2 weeks ago</time>
-
-
-*This text is italic*
-
-_This text is italic_
-
-
-This is a citation.[^1]
-[^1]: This is a citation.
-
-
-Term
-: Definition
+---

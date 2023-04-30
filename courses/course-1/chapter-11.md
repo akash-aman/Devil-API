@@ -1,14 +1,82 @@
 ---
 title: Chapter 11
 description: Chapter 11
-weight: 7
-emogi: 🤔
+weight: 66
+emogi: 🤕
 type: chapters
 chapter: 11
 ---
 
 
-2^2^2
+<details>
+<summary>Click to expand!</summary>
+</details>
+
+
+<sub>This text is small</sub>
+
+
+--This text is deleted--
+
+
+| Tables | Are | Cool |
+| --- | --- | --- |
+| col 3 is | right-aligned | $1600 |
+| col 2 is | centered | $12 |
+| zebra stripes | are neat | $1 |
+
+
+<details>
+<summary>Click to expand!</summary>
+</details>
+
+
+*This text is italic*
+
+_This text is italic_
+
+
+<time datetime="2013-04-06T12:32+00:00">2 weeks ago</time>
+
+
+==This text is highlighted==
+
+
+---
+
+
+# Heading 1 
+## Heading 2 
+### Heading 3 
+#### Heading 4 
+##### Heading 5 
+###### Heading 6 
+
+
+Here is a footnote reference,[^1]
+[^1]: And here is the footnote.
+
+
+- [x] This is a complete item
+- [ ] This is an incomplete item
+
+
+[Google](https://www.google.com)
+
+[facebook](https://www.facebook.com "This is a title")
+
+
+This is a citation.[^1]
+[^1]: This is a citation.
+
+
+$$
+\begin{align}
+\end{align}
+$$
+
+
+**This text is bold**
 
 
 > This is a blockquote
@@ -24,65 +92,19 @@ chapter: 11
 >>>> This is a nested blockquote
 
 
-<details>
-<summary>Click to expand!</summary>
-</details>
-
-
-[Google](https://www.google.com)
-
-[facebook](https://www.facebook.com "This is a title")
-
-
-**This text is bold**
+2^2^2
 
 
 H~2~O
 
 
-~~This text is strikethrough~~
-
-
-*[HTML]: Hyper Text Markup Language
-
-
-# Heading 1 
-## Heading 2 
-### Heading 3 
-#### Heading 4 
-##### Heading 5 
-###### Heading 6 
-
-
-`This text is code`
-
-
-<details>
-<summary>Click to expand!</summary>
-</details>
-
-
-This is a citation.[^1]
-[^1]: This is a citation.
-
-
-<time datetime="2013-04-06T12:32+00:00">2 weeks ago</time>
-
-
-Here is a footnote reference,[^1]
-[^1]: And here is the footnote.
-
-
---This text is deleted--
-
-
-$$
-\begin{align}
-\end{align}
-$$
+++This text is inserted++
 
 
 :smile:
+
+
+*[HTML]: Hyper Text Markup Language
 
 
 ![This is an image](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
@@ -104,33 +126,11 @@ $$
 				- This is a nested list
 
 
-*This text is italic*
-
-_This text is italic_
-
-
-| Tables | Are | Cool |
-| --- | --- | --- |
-| col 3 is | right-aligned | $1600 |
-| col 2 is | centered | $12 |
-| zebra stripes | are neat | $1 |
-
-
-++This text is inserted++
-
-
-<sub>This text is small</sub>
-
-
-- [x] This is a complete item
-- [ ] This is an incomplete item
-
-
----
+`This text is code`
 
 
 Term
 : Definition
 
 
-==This text is highlighted==
+~~This text is strikethrough~~

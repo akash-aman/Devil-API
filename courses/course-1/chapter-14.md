@@ -1,14 +1,18 @@
 ---
 title: Chapter 14
 description: Chapter 14
-weight: 27
+weight: 62
 emogi: 🤧
 type: chapters
 chapter: 14
 ---
 
 
-`This text is code`
+![This is an image](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
+
+![This is an image](https://images.pexels.com/photos/14980905/pexels-photo-14980905.jpeg "This is a title")
+
+![This is an image](https://images.pexels.com/photos/1612351/pexels-photo-1612351.jpeg)
 
 
 $$
@@ -17,33 +21,37 @@ $$
 $$
 
 
-# Heading 1 
-## Heading 2 
-### Heading 3 
-#### Heading 4 
-##### Heading 5 
-###### Heading 6 
+`This text is code`
 
 
 ~~This text is strikethrough~~
 
 
-This is a citation.[^1]
-[^1]: This is a citation.
+<sub>This text is small</sub>
 
 
 ==This text is highlighted==
 
 
---This text is deleted--
+---
+
+
+<details>
+<summary>Click to expand!</summary>
+</details>
+
+
+++This text is inserted++
 
 
 <time datetime="2013-04-06T12:32+00:00">2 weeks ago</time>
 
 
-*This text is italic*
+Term
+: Definition
 
-_This text is italic_
+
+H~2~O
 
 
 > This is a blockquote
@@ -59,11 +67,8 @@ _This text is italic_
 >>>> This is a nested blockquote
 
 
-:smile:
-
-
-- [x] This is a complete item
-- [ ] This is an incomplete item
+This is a citation.[^1]
+[^1]: This is a citation.
 
 
 1. This is a numbered list
@@ -78,52 +83,18 @@ _This text is italic_
 				- This is a nested list
 
 
-2^2^2
-
-
-<details>
-<summary>Click to expand!</summary>
-</details>
-
-
----
-
-
 [Google](https://www.google.com)
 
 [facebook](https://www.facebook.com "This is a title")
 
 
-H~2~O
-
-
-![This is an image](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
-
-![This is an image](https://images.pexels.com/photos/14980905/pexels-photo-14980905.jpeg "This is a title")
-
-![This is an image](https://images.pexels.com/photos/1612351/pexels-photo-1612351.jpeg)
-
-
-<sub>This text is small</sub>
+- [x] This is a complete item
+- [ ] This is an incomplete item
 
 
 <details>
 <summary>Click to expand!</summary>
 </details>
-
-
-Term
-: Definition
-
-
-Here is a footnote reference,[^1]
-[^1]: And here is the footnote.
-
-
-**This text is bold**
-
-
-++This text is inserted++
 
 
 | Tables | Are | Cool |
@@ -134,3 +105,32 @@ Here is a footnote reference,[^1]
 
 
 *[HTML]: Hyper Text Markup Language
+
+
+2^2^2
+
+
+# Heading 1 
+## Heading 2 
+### Heading 3 
+#### Heading 4 
+##### Heading 5 
+###### Heading 6 
+
+
+*This text is italic*
+
+_This text is italic_
+
+
+--This text is deleted--
+
+
+**This text is bold**
+
+
+Here is a footnote reference,[^1]
+[^1]: And here is the footnote.
+
+
+:smile:

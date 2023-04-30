@@ -1,34 +1,18 @@
 ---
 title: Chapter 12
 description: Chapter 12
-weight: 89
-emogi: 🤢
+weight: 21
+emogi: 🤐
 type: chapters
 chapter: 12
 ---
 
 
-2^2^2
+Term
+: Definition
 
 
-++This text is inserted++
-
-
-![This is an image](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
-
-![This is an image](https://images.pexels.com/photos/14980905/pexels-photo-14980905.jpeg "This is a title")
-
-![This is an image](https://images.pexels.com/photos/1612351/pexels-photo-1612351.jpeg)
-
-
-This is a citation.[^1]
-[^1]: This is a citation.
-
-
-**This text is bold**
-
-
-<time datetime="2013-04-06T12:32+00:00">2 weeks ago</time>
+H~2~O
 
 
 | Tables | Are | Cool |
@@ -38,51 +22,45 @@ This is a citation.[^1]
 | zebra stripes | are neat | $1 |
 
 
-1. This is a numbered list
-2. This is a numbered list
-3. This is a numbered list
-4. This is a numbered list
-- This is a list
-- This is a nested list
-	- This is a nested list
-		- This is a nested list
-			- This is a nested list
-				- This is a nested list
-
-
 <details>
 <summary>Click to expand!</summary>
 </details>
 
 
-$$
-\begin{align}
-\end{align}
-$$
+[Google](https://www.google.com)
 
-
----
+[facebook](https://www.facebook.com "This is a title")
 
 
 - [x] This is a complete item
 - [ ] This is an incomplete item
 
 
-H~2~O
+~~This text is strikethrough~~
 
 
 <sub>This text is small</sub>
+
+
+:smile:
 
 
 Here is a footnote reference,[^1]
 [^1]: And here is the footnote.
 
 
-Term
-: Definition
+++This text is inserted++
 
 
 `This text is code`
+
+
+--This text is deleted--
+
+
+<details>
+<summary>Click to expand!</summary>
+</details>
 
 
 > This is a blockquote
@@ -98,15 +76,28 @@ Term
 >>>> This is a nested blockquote
 
 
-:smile:
+**This text is bold**
 
 
-~~This text is strikethrough~~
+==This text is highlighted==
 
 
-*This text is italic*
+1. This is a numbered list
+2. This is a numbered list
+3. This is a numbered list
+4. This is a numbered list
+- This is a list
+- This is a nested list
+	- This is a nested list
+		- This is a nested list
+			- This is a nested list
+				- This is a nested list
 
-_This text is italic_
+
+2^2^2
+
+
+<time datetime="2013-04-06T12:32+00:00">2 weeks ago</time>
 
 
 # Heading 1 
@@ -117,20 +108,29 @@ _This text is italic_
 ###### Heading 6 
 
 
-<details>
-<summary>Click to expand!</summary>
-</details>
+This is a citation.[^1]
+[^1]: This is a citation.
 
 
---This text is deleted--
+$$
+\begin{align}
+\end{align}
+$$
+
+
+*This text is italic*
+
+_This text is italic_
+
+
+---
+
+
+![This is an image](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
+
+![This is an image](https://images.pexels.com/photos/14980905/pexels-photo-14980905.jpeg "This is a title")
+
+![This is an image](https://images.pexels.com/photos/1612351/pexels-photo-1612351.jpeg)
 
 
 *[HTML]: Hyper Text Markup Language
-
-
-==This text is highlighted==
-
-
-[Google](https://www.google.com)
-
-[facebook](https://www.facebook.com "This is a title")
