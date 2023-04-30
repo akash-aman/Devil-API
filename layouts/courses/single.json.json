@@ -1,0 +1,18 @@
+{
+	"coverImage": "{{ .Params.coverImage }}",
+	"authorImage": "{{ .Params.authorImage }}",
+	"author": "{{ .Params.author }}",
+	"title": "{{ .Title }}",
+	"description": "{{ .Description }}",
+	"slug": "{{ replace .RelPermalink "/index.json" ""}}",
+	"date": "{{ .Params.date.Format "2006-01-02" }}",
+	"lastmod": "{{ .Lastmod.Format "2006-01-02" }}",
+	"emogi": {{ .Params.emogi | jsonify }},
+	"video": {{ .Params.video | jsonify }},
+	"tags": {{ .Params.tags | jsonify }},
+	"categories": {{ .Params.categories | jsonify }},
+	"chapter": {{ .Params.chapter | jsonify }},
+	"section_start": {{ .Params.section_start | jsonify }},
+	"section_emogi": {{ .Params.section_emogi | jsonify }},
+	"content": {{ .RawContent | jsonify }}
+}

@@ -1,0 +1,31 @@
+{{ define "response" }}
+    {{ if eq .CurrentSection.RelPermalink "/blogs/index.json" }}
+        {{ $pages := where .Data.Pages "Section" "==" "blogs" }}
+        {{ $sorted := $pages }}
+        {{ if $pages }}
+        {{ $sorted = sort $pages "Params.lastmod" "desc" }}
+        {{ end }}
+        {{ $paginator := .Paginate $sorted }}
+        [
+            {{ range $paginator.Pages -}}
+            {
+                "coverImage": "{{ .Params.coverImage }}",
+                "authorImage": "{{ .Params.authorImage }}",
+                "author": "{{ .Params.author }}",
+                "title": "{{ .Title }}",
+                "description": "{{ .Description }}",
+                "slug": "{{ replace .RelPermalink "/index.json" ""}}",
+                "date": "{{ .Params.date.Format "2006-01-02" }}",
+                "lastmod": "{{ .Lastmod.Format "2006-01-02" }}",
+                "emogi": {{ .Params.emogi | jsonify }},
+                "video": {{ .Params.video | jsonify }},
+                "tags": {{ .Params.tags | jsonify }},
+                "categories": {{ .Params.categories | jsonify }}
+            },
+            {{- end -}}
+            {
+                "total": {{ .Paginator.TotalPages }}
+            }
+        ]
+    {{ end }}
+{{ end }}

@@ -1,0 +1,22 @@
+languageCode: en-us
+title: API
+
+outputs:
+  page: json
+  section: json
+  home: json
+
+paginate: 10
+paginatePath: "./"
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+template:
+  funcs:
+    math:
+      ceil: "Ceil"
+
+taxonomies:
+  category: categories
+  tag: tags

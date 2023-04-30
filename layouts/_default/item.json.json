@@ -1,0 +1,10 @@
+{
+	"title": {{ .Title | jsonify }},
+	"date": {{ .Date | jsonify }},
+	"description": {{ .Params.description | jsonify }},
+	"emogi": {{ .Params.emogi | jsonify }},
+	"chapter": {{ .Params.chapter | jsonify }},
+	"type": {{ .Params.type | jsonify }},
+	"section_start": {{ .Params.section_start | jsonify }},
+	"section_emogi": {{ .Params.section_emogi | jsonify }}
+}

@@ -1,0 +1,15 @@
+{
+	"coverImage": "{{ .Params.coverImage }}",
+	"authorImage": "{{ .Params.authorImage }}",
+	"author": "{{ .Params.author }}",
+	"title": "{{ .Title }}",
+	"description": "{{ .Description }}",
+	"slug": "{{ replace .RelPermalink "/index.json" ""}}",
+	"date": "{{ .Params.date.Format "2006-01-02" }}",
+	"lastmod": "{{ .Lastmod.Format "2006-01-02" }}",
+	"emogi": {{ .Params.emogi | jsonify }},
+	"video": {{ .Params.video | jsonify }},
+	"tags": {{ .Params.tags | jsonify }},
+	"categories": {{ .Params.categories | jsonify }},
+	"content": {{ .RawContent | jsonify }}
+}
