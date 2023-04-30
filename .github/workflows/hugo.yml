@@ -27,10 +27,9 @@ jobs:
         with:
           path: ~/.cache/go-build
           key: ${{ runner.os }}-hugo-${{ hashFiles('**/go.sum') }}
-          restore-keys: ${{ runner.os }}-hugo-
-          # Set the Node.js version to use
-          env:
-            NODE_VERSION: '16.16.0'
+          restore-keys: ${{ runner.os }}-hugo-restore
+        env:
+          NODE_VERSION: '16.16.0'
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
