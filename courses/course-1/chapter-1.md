@@ -13,6 +13,46 @@ section_emogi: 🤠
 <time datetime="2013-04-06T12:32+00:00">2 weeks ago</time>
 
 
+```py
+print("Hello World")
+```
+
+
+```js
+
+import '/styles/globals.css'
+import '/styles/globals.scss'
+import ApplyTheme from '/features/theme';
+import Navigation from '/components/navigation';
+import Layout from '../layouts/basiclayout';
+import { HeaderProvider } from '../contexts/headercontext';
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+
+  return (
+    <html lang='en'>
+      <body className='bg-[var(--dev-bg-colour)] scrollbar'>
+        <ApplyTheme />
+        <Navigation />
+        <HeaderProvider>
+          <Layout>
+            {children}
+          </Layout>
+        </HeaderProvider>
+      </body>
+    </html>
+  )
+}
+
+
+```
+
+
+
 H~2~O
 
 
