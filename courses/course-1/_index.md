@@ -3,6 +3,7 @@ lastmod: 2023-04-30 11:34:56.471495
 title: How to use Markdown
 description: Course 1
 weight: 17
+coverImage: course-1.jpg
 emogi: 🤡
 type: course
 author : Akash Aman

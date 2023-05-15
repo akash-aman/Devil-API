@@ -2,6 +2,7 @@
 lastmod: 2023-04-30 11:34:56.520329
 title: Course 4
 description: Course 4
+coverImage: course-4.jpg
 weight: 97
 emogi: 🤔
 type: course

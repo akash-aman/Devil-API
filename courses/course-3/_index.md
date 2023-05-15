@@ -2,6 +2,7 @@
 lastmod: 2023-04-30 11:34:56.503314
 title: Complete Markdown Course 👀
 description: Course 3
+coverImage: course-3.jpg
 weight: 13
 emogi: 🤭
 type: course

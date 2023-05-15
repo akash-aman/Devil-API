@@ -2,6 +2,7 @@
 lastmod: 2023-04-30 11:34:56.503314
 title: Lets learn Markdown
 description: Course 2
+coverImage: course-2.jpg
 weight: 94
 emogi: 🤐
 type: course
